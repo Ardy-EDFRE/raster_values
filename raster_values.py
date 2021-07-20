@@ -2,7 +2,7 @@ from arcgis.gis import GIS
 from decouple import config
 
 url = config('url', default='')
-username = config('username', default='')
+username = 'Geoportalcreator'
 password = config('password', default='')
 
 # Connect to the GIS.
